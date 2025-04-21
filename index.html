@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kitchen Essentials</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/kitchen-bg copy.jpg" alt="logo" class="logo-dark" />
+            <img src="assets/kitchen-bg copy.jpg" alt="logo" class="logo-white" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#store">Store</a></li>
+        <li><button class="btn">Shop Now</button></li>
+      </ul>
+    </nav>
+
+    <div style="background-color: black; color: white; text-align: center; padding: 0.75rem 1rem; font-family: 'Poppins', sans-serif;">
+      📞 To purchase any product, contact: <strong>+91 73376 98732</strong>
+    </div>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/chopper-main.jpg" alt="chopper" />
+        <img src="assets/kitchen-bg.jpg" alt="kitchen_bg" class="header-bg" />
+        <div class="header__image__content"></div>
+      </div>
+      <div class="header__content">
+        <h1>Smart<br />Vegetable Chopper</h1>
+        <p>
+          Make cooking fun and fast with our smart chopper – easy to use,
+          compact, and efficient for everyday meal prep.
+        </p>
+      </div>
+    </header>
+
+    <section class="product" id="product">
+      <div class="section__container product__container">
+        <div class="product__grid">
+          <div class="product__image">
+            <img src="assets/peeler.jpg" alt="peeler" />
+          </div>
+          <div class="product__content">
+            <div class="product__card">
+              <h4>Peeler</h4>
+              <p>Stainless steel blade for smooth peeling</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="product__card">
+              <h4>Dishwasher Safe</h4>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="product__card">
+              <div class="product__colors">
+                <div><i class="ri-check-line"></i></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p>Available in multiple colors</p>
+            </div>
+          </div>
+        </div>
+        <div class="product__btn"></div>
+      </div>
+    </section>
+
+    <section class="section__container store__container" id="store">
+      <h2>Kitchen Essentials</h2>
+      <p>
+        Explore our curated collection of must-have kitchen tools designed to
+        simplify your daily cooking tasks.
+      </p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model - Mini Chopper</h4>
+              <img src="assets/store-chopper.jpg" alt="store" />
+              <h3>Price - ₹250</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model - Fruit Peeler</h4>
+              <img src="assets/store-peeler.jpg" alt="store" />
+              <h3>Price - ₹120</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model - Machine Blender</h4>
+              <img src="assets/store-blender.jpg" alt="store" />
+              <h3>Price - ₹450</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model - Grater Set</h4>
+              <img src="assets/store-grater.jpg" alt="store" />
+              <h3>Price - ₹180</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model - Chopping Board</h4>
+              <img src="assets/store-board.jpg" alt="store" />
+              <h3>Price - ₹150</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="store__card">
+              <h4>Model - Silicone Spatula</h4>
+              <img src="assets/store-spatula.jpg" alt="store" />
+              <h3>Price - ₹90</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Kitchen Tools Co. All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
